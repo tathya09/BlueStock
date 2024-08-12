@@ -1,12 +1,11 @@
-
 import './App.css';
+import IPOUpcomingScreenPage from './pages/IpoComponents/IpoHomePage.js'; // Adjust path based on your folder structure
 
 function App() {
   return (
-  <>
-  <h1>Bluestock Fintech
-  </h1>
-  </>
+    <>
+      <IPOUpcomingScreenPage />
+    </>
   );
 }
 
